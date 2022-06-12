@@ -1,0 +1,97 @@
+[
+  {
+    "httpRequest": {
+      "path": "/v1/current.json",
+      "method": "GET",
+      "queryStringParameters": {
+        "q": [ "Lima" ],
+        "key": [ "[A-Z0-9\\-]+" ],
+        "aqi": [ "no" ]
+      }
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": "{\"current\":{\"temp_f\":68.3}}"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/v1/current.json",
+      "method": "GET",
+      "queryStringParameters": {
+        "q": [ "Sao Paulo" ],
+        "key": [ "[A-Z0-9\\-]+" ],
+        "aqi": [ "no" ]
+      }
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": "{\"current\":{\"temp_f\":77.1}}"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/v1/current.json",
+      "method": "GET",
+      "queryStringParameters": {
+        "q": [ "Cairo" ],
+        "key": [ "[A-Z0-9\\-]+" ],
+        "aqi": [ "no" ]
+      }
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": "{\"current\":{\"temp_f\":87.9}}"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/v1/current.json",
+      "method": "GET",
+      "queryStringParameters": {
+        "q": [ "Buenos Aires" ],
+        "key": [ "[A-Z0-9\\-]+" ],
+        "aqi": [ "no" ]
+      }
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": "{\"current\":{\"temp_f\":59.5}}"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/v1/current.json",
+      "method": "GET",
+      "queryStringParameters": {
+        "q": [ "Toronto" ],
+        "key": [ "[A-Z0-9\\-]+" ],
+        "aqi": [ "no" ]
+      }
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": [
+          "application/json"
+        ]
+      },
+      "body": "{\"current\":{\"temp_f\":50}}"
+    }
+  }
+]
